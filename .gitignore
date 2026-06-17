@@ -1,0 +1,11 @@
+# R
+.Rhistory
+.RData
+.Rproj.user
+.Rapp.history
+
+# системное
+.DS_Store
+
+# сырой корпус не входит в репозиторий приложения (нужен только для data-raw/prep_data.R)
+british_fiction/
