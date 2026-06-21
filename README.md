@@ -53,3 +53,5 @@ source("data-raw/build_lexicons.R")   # lexicons.rds
 ## Команда
 
 - Никита Докудовский
+- Екатерина Кулятина
+- НИкита Линев
