@@ -54,4 +54,4 @@ source("data-raw/build_lexicons.R")   # lexicons.rds
 
 - Никита Докудовский
 - Екатерина Кулятина
-- НИкита Линев
+- Никита Линев
