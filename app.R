@@ -50,7 +50,7 @@ ui <- fluidPage(
   sidebarLayout(
     sidebarPanel(
       width = 3,
-      selectInput("book", "Роман:", choices = book_choices, selected = 4),
+      selectInput("book", "Роман:", choices = book_choices, selected = 5),
       radioButtons("lexicon", "Словарь тональности:",
                    choices = c("Bing (плюс / минус)" = "bing",
                                "AFINN (от -5 до +5)" = "afinn",
@@ -79,13 +79,15 @@ ui <- fluidPage(
           tags$ul(
             tags$li(strong("Bing"), " — слово либо позитивное, либо негативное."),
             tags$li(strong("AFINN"), " — у слова числовая оценка от -5 до +5."),
-            tags$li(strong("NRC"), " — восемь эмоций (радость, страх, доверие...) плюс полярность.")
+            tags$li(strong("NRC"), " — восемь эмоций (радость, страх, доверие...) + полярность.")
           ),
-          p("Если переключать словари на одной книге, видно, что выбор словаря заметно
+          p("Если переключать словари на одной книге, то заметно, что выбор словаря значительно
              меняет картину — это важно помнить при любом анализе тональности."),
           h4("Команда"),
           tags$ul(
-            tags$li("Никита Докудовский")
+            tags$li("Никита Докудовский"),
+            tags$li("Екатерина Кулятина"),
+            tags$li("Никита Линёв")
           ),
           p(tags$a(href = github_url, target = "_blank", "Репозиторий проекта на GitHub"))
         ),

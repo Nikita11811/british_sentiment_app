@@ -1,0 +1,12 @@
+name: british_sentiment_app
+title: british_sentiment_app
+username: linevnikita
+account: linevnikita
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 17531090
+bundleId: 12150664
+url: https://linevnikita.shinyapps.io/british_sentiment_app/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
