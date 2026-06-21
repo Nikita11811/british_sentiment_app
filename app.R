@@ -14,7 +14,7 @@ library(wordcloud)  # облако слов
 books    <- readRDS("data/books.rds")     # 27 романов + автор, год
 lexicons <- readRDS("data/lexicons.rds")  # три словаря: bing, afinn, nrc
 
-github_url <- "https://github.com/doknikal/FinRBr"
+github_url <- "https://github.com/Nikita11811/british_sentiment_app.git"
 
 # выпадающий список книг и общая палитра
 book_choices <- setNames(books$id, books$label)
